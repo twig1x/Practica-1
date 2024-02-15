@@ -9,7 +9,7 @@ package com.mycompany.main;
  * @author rodri
  */
 class Automovil extends Vehiculo {
-    String modelo;
-    double motorSize;
+    protected String modelo;
+    protected double motorSize;
     
 }
