@@ -9,9 +9,9 @@ package com.mycompany.main;
  * @author rodri
  */
 class Vehiculo {
-    String marca;
-    int year;
-    double precio;
+    protected String marca;
+    protected int year;
+    protected double precio;
 
     void aumentarVelocidad() {
 
