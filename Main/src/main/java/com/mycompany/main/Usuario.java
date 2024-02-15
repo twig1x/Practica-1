@@ -9,9 +9,9 @@ package com.mycompany.main;
  * @author rodri
  */
 class Usuario {
-    String nombre;
-    String cedula;
-    double dineroTotal;
+    protected String nombre;
+    protected String cedula;
+    protected double dineroTotal;
     Vehiculo vehiculo;
 
     void comprarVehiculo(Vehiculo vehiculo) {
