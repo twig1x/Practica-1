@@ -9,8 +9,8 @@ package com.mycompany.main;
  * @author rodri
  */
 class Avion extends Vehiculo {
-    String size;
-    int numMotores;
+    protected String size;
+    protected int numMotores;
     
     
 }
