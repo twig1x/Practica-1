@@ -9,8 +9,8 @@ package com.mycompany.main;
  * @author rodri
  */
 class Caballo extends Vehiculo {
-    String raza;
-    int edad;
-    int nivelHambre;
+    protected String raza;
+    protected int edad;
+    protected int nivelHambre;
     
 }
